@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Burgers</title>
+      <link rel="stylesheet" type="text/css" href="CSS\styles.css">
+      <style>
+         .header{
+                color:#fdfdfd ;
+                text-align:center;
+                font-family:verdana;
+                border:1px solid black;
+                background-color:rgb(0, 0, 0);
+                opacity:0.6;
+                border-radius:5px;         
+               }
+         .menu{
+               background-color:#CB4335;
+               float:left;
+               width:600px;
+              }
+         .menu table{
+                    border:none;
+                    }
+        .menu th{
+                color:blue;
+                font-size:25px;
+                font-family:algerian;
+                }
+        .menu tr{
+                 color:white;
+                 font-size:20px;
+                 font-family:helvetica; 
+                 text-align:center;
+                }
+        body{
+             background-color:#212F3D;
+            }
+        .sticky{
+                position: fixed;
+                top: 0;
+                width: 100%
+                }
+       
+      </style>
+        
+   </head>
+<body>
+
+
+   <div>
+
+    <div class="rmenubar">
+        <span class="rmenu-icon" id="rmyP2" onclick="openrMenu()" onmouseover="on()" onmouseout="off()">&#9675;</span>
+       </div>
+       <div class="rmenu-container" id="rnavbar">
+        <span class="rclosebtn" id="rclose" onclick="closerMenu()">&times;</span>
+        <ul class="bullets">
+            <a href="starters.html">
+                <li>Starters</li>
+            </a>
+            <hr>
+            <a href="burgers.html">
+                <li>Burgers</li>
+            </a>
+            <hr>
+            <a href="pizza.html">
+                <li>Pizza</li>
+            </a>
+            <hr>
+            <a href="drinks&desserts.html">
+                <li>Desserts</li>
+            </a>
+            <hr><br>
+        </ul>
+        </div>
+
+      <div id="side">
+          <!-- </div>
+              <br><br><br><br> -->
+          <div class="menubar">
+              <span class="menu-icon" id="myP2" onclick="openMenu()" onmouseover="on()" onmouseout="off()">&#9776; MENU</span>
+          </div>
+          <div class="menu-container" id="navbar">
+              <span class="closebtn" id="close" onclick="closeMenu()">&times;</span>
+              <ul class="bullets">
+                  <a href="index.html">
+                      <li>Home</li>
+                  </a>
+                  <hr>
+                  <a href="book_a_table.html">
+                      <li>Book A Table</li>
+                  </a>
+                  <hr>
+                  <a href="">
+                      <li>Home Delivery</li>
+                  </a>
+                  <hr>
+                  <a href="RestroMenu.html">
+                      <li>Menu</li>
+                  </a>
+                  <hr>
+                  <a href="news.html">
+                      <li>News</li>
+                  </a>
+                  <hr>
+                  <a href="events.html">
+                      <li>Events</li>
+                  </a>
+                  <hr>
+                  <a href="Contact us.html">
+                      <li>Contact</li>
+                  </a>
+                  <hr>
+                  <a href="about_us.html">
+                      <li>About DT</li>
+                  </a>
+                  <hr>
+                  <a href="sign_up.html">
+                      <li>Sign Up</li>
+                  </a>
+                  <hr>
+                  <a href="loginPage.html">
+                      <li>Sign In</li>
+                  </a>
+                  <hr><br>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+    <div class="header" id="myHeader">
+       <hr><h1>Burgers</h1><hr>
+    </div><br>
+  <div class="menu">
+   <table cellspacing="20" cellpadding="10">
+       <tr>
+          <th colspan="2" style="color:aliceblue"><u>Items</u></th>
+          <th style="color:aliceblue"><u>Price</u></th>
+        </tr>
+        <tr>
+          <td><img src="Image\burger1.jpg" width="150px" height="100px"></td>
+          <td>Crispy Veg Burger</td>
+          <td>55/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger2.jpg" width="150px" height="100px"></td>
+          <td>Crispy Veg Double Patty</td>
+          <td>75/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger3.jpg" width="150px" height="100px"></td>
+          <td>King Egg Burger</td>
+          <td>65/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger4.jpg" width="150px" height="100px"></td>
+          <td>Crispy Chicken Burger</td>
+          <td>80/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger5.jpg" width="150px" height="100px"></td>
+          <td>Chicken Tandoor Grill Burger</td>
+          <td>149/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger6.jpg" width="150px" height="100px"></td>
+          <td>Cheese Meltdown</td>
+          <td>169/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger7.jpg" width="150px" height="100px"></td>
+          <td>Spicy Grilled</td>
+          <td>99/-<td>
+       </tr>
+     </table>
+   </div>
+    <div class="menu" style="float:right;">
+      <table cellspacing="20" cellpadding="10">
+       <tr>
+          <th colspan="2" style="color:aliceblue"><u>Items</u></th>
+          <th style="color:aliceblue"><u>Price</u></th>
+       </tr>
+       <tr>
+          <td><img src="Image\burger8.jpg" width="150px" height="100px"></td>
+          <td>Veg Whopper</td>
+          <td>149/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger9.jpg" width="150px" height="100px"></td>
+          <td>Mutton Whopper</td>
+          <td>299/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger10.jpg" width="150px" height="100px"></td>
+          <td>Veg Twisted Whopper</td>
+          <td>199/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger11.jpg" width="150px" height="100px"></td>
+          <td>Mutton Twisted</td>
+          <td>339/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger12.jpg" width="150px" height="100px"></td>
+          <td>Veg Makhani Burst Burger</td>
+          <td>50/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger13.jpg" width="150px" height="100px"></td>
+          <td>1 Crispy Veg + 1 Chocolate Shake</td>
+          <td>194/-<td>
+       </tr>
+       <tr>
+          <td><img src="Image\burger14.jpg" width="150px" height="100px"></td>
+          <td>Combos
+           <p style="font-size:13px;">(Available on burgers above 100/-)</p></td>
+          <td>432/-<td>
+       </tr>
+     </table>
+    </div>
+    <script type="text/javascript" src="script\script.js"></script>
+   <script>
+            window.onscroll = function() {myFunction()};
+            var header = document.getElementById("myHeader"); // Get the header
+            var sticky = header.offsetTop; // Get the offset position of the navbar
+            function myFunction() {    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                   } 
+               else {
+                  header.classList.remove("sticky");
+                  }
+                }
+        </script>
+</body>
+</html>

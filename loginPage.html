@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="CSS\styles.css">
+       <title>Login Page</title>
+     <style>
+        body{
+              background-image:url('login.jpg'); 
+              background-size:cover;
+              background-repeat:no-repeat;        
+             }
+        .login{
+               background-color:black;
+               opacity:.65;
+               text-align:center;
+               position:relative;
+               top:240px;
+               left:35%;
+               width:400px;
+               border:2px solid rgb(0, 0, 0);
+              }
+        .login label{
+                     font-size:20px;
+                     color:white;
+                    }
+        .login input{
+                    font-size:16px;
+                    color:black;
+                    width:90%;
+                    }
+        .login h1{
+                   background-color:white;
+                   color:#283747;
+                  }
+        .login button{
+                      font-size:20px;
+                      background-color:blue;
+                      display:inline-block;
+                      border-radius:8px;
+                      color:white;
+                      border:none;
+                      cursor:pointer;
+                      padding:8px 12px;
+                      }
+          .login button:hover{
+                             background-color:red;
+                             color:white;
+                            }
+     </style>
+   </head>
+<body>
+
+   <div class="topnav">
+      <div class="topnav-centered">
+        <a href="index.html" class="active"><img src="Image\dt.png" height="10%" width="15%"></a>
+      </div>
+    
+    </div>
+  <div id="side">
+      <!-- </div>
+          <br><br><br><br> -->
+      <div class="menubar">
+          <span class="menu-icon" id="myP2" onclick="openMenu()" onmouseover="on()" onmouseout="off()">&#9776; MENU</span>
+      </div>
+      <div class="menu-container" id="navbar">
+          <span class="closebtn" id="close" onclick="closeMenu()">&times;</span>
+          <ul class="bullets">
+              <a href="index.html">
+                  <li>Home</li>
+              </a>
+              <hr>
+              <a href="book_a_table.html">
+                  <li>Book A Table</li>
+              </a>
+              <hr>
+              <a href="">
+                  <li>Home Delivery</li>
+              </a>
+              <hr>
+              <a href="RestroMenu.html">
+                  <li>Menu</li>
+              </a>
+              <hr>
+              <a href="news.html">
+                  <li>News</li>
+              </a>
+              <hr>
+              <a href="events.html">
+                  <li>Events</li>
+              </a>
+              <hr>
+              <a href="Contact us.html">
+                  <li>Contact</li>
+              </a>
+              <hr>
+              <a href="about_us.html">
+                  <li>About DT</li>
+              </a>
+              <hr>
+              <a href="sign_up.html">
+                  <li>Sign Up</li>
+              </a>
+              <hr>
+              <a href="loginPage.html">
+                  <li>Sign In</li>
+              </a>
+              <hr><br>
+          </ul>
+      </div>
+  </div>
+  <script type="text/javascript" src="script\script.js"></script>
+</div>
+
+
+   <div class="login">
+     <hr><h1>DT User Login</h1><hr> <br>
+      <form method="post">
+        <label style="float:left; margin-left:40px;"><b>E-mail:</b></label>
+        <input type="email" style="float:left; margin-left:10px;"><br><br>
+        <label style="float:left; margin-left:40px;"><b>Password:</b></label>
+        <input type="password" style="float:left; margin-left:10px;"><br><br><br>
+        <button style="position:relative; left:10px;">Login</button>
+      </form>
+      <p style="font-size: 1.3em;color: aliceblue;">Don't have an account? <a href="sign_up.html" style="font-size: 1.3em;color: aliceblue;">SignUp now</a></p>
+   </div>
+</body>
+</html>

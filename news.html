@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html >
+   <head>
+      <link rel="stylesheet" type="text/css" href="CSS\styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	
+ 
+      <title>News</title>
+	<style>
+        .news_bg{
+    background-color: aqua;
+    /* position: fixed; */
+    background-image: url('news_bg.jpg');
+  background-repeat:repeat;
+    width: 100%;
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        }
+    </style>
+  </head>
+<body >
+    <div class="news_bg">
+   <div id="side">
+      <!-- </div>
+          <br><br><br><br> -->
+      <div class="menubar">
+          <span class="menu-icon" id="myP2" onclick="openMenu()" onmouseover="on()" onmouseout="off()">&#9776; MENU</span>
+      </div>
+      <div class="menu-container" id="navbar">
+          <span class="closebtn" id="close" onclick="closeMenu()">&times;</span>
+          <ul class="bullets">
+              <a href="index.html">
+                  <li>Home</li>
+              </a>
+              <hr>
+              <a href="book_a_table.html">
+                  <li>Book A Table</li>
+              </a>
+              <hr>
+              <a href="">
+                  <li>Home Delivery</li>
+              </a>
+              <hr>
+              <a href="RestroMenu.html">
+                  <li>Menu</li>
+              </a>
+              <hr>
+              <a href="news.html">
+                  <li>News</li>
+              </a>
+              <hr>
+              <a href="events.html">
+                <li>Events</li>
+            </a>
+            <hr>
+              <a href="Contact us.html">
+                  <li>Contact</li>
+              </a>
+              <hr>
+              <a href="about_us.html">
+                  <li>About DT</li>
+              </a>
+              <hr>
+              <a href="sign_up.html">
+                  <li>Sign Up</li>
+              </a>
+              <hr>
+              <a href="loginPage.html">
+                  <li>Sign In</li>
+              </a>
+              <hr><br>
+          </ul>
+      </div>
+  </div>
+
+  <!-- ---------------------------------------------------------------------- -->
+
+  
+  <!-- <video autoplay muted loop id="menuvideo">
+       <source src="Image\aboutus.mp4" type="video/mp4">
+  </video>  -->
+   <div class="header">
+      <hr><h1>NEWS</h1><hr>
+   </div>
+     <div class="w3-content w3-display-container">
+        <br><br><br><br>
+  <img class="mySlides" src="Image\party3.jpg" width="978px" height="500px">
+  <img class="mySlides" src="Image\party2.jpg" width="978px" height="500px">
+  <img class="mySlides" src="Image\party1.jpeg" width="978px" height="500px">
+  <img class="mySlides" src="Image\party4.jpg" width="978px" height="500px">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<br><br><br><br>
+
+<hr>
+<h3 style="color:aliceblue;font-size:40px;"><center><u><b>Updates</b></u></center></h3><hr>
+<center>
+<table>
+<tr>
+<th><input type="image" name="covid relief" src="Image\covid.jpeg" width="300px" height="300px" border="1" alt="text"></th>
+<th><input type="image" name="chef" src="Image\jessi.jpg" width="300px" height="300px" border="1" alt="text"></th>
+<th><input type="image" name="event" src="Image\event1.jpg" width="300px" height="300px" border="1" alt="text"></th>
+<th><input type="image" name="celebration" src="Image\celeb.jpg" width="300px" height="300px" border="1" alt="text"></th>
+</tr>
+
+<tr style="color:aliceblue;background-color: rgba(255, 0, 0, 0.623);">
+<td><p><b>"we have served 1000 meal <br> every day for covid relif <br> thanks to our chefs <br> who are working every day<br>to help the needies."</b></p></td>
+<td><p><b>"Our Chef Jessi Brown <br> have donated 1000$ <br> for the patients suffering due to  <br> covid pendamic<br>thank you Jessi"</b></p></td>
+<td><p><b>"Our restaurant is having <br> special offer <br> Upto 50% discout with your<br>  online booking this Summer<br><u>book now</u>."</b></p></td>
+<td><p><b>"we are having <br> facility for you to <br> celebrate you birth day <br> or anniversery<br> <u>book your room now</u>."</b></p></td>
+</tr>
+</table>
+<br><br><br><br>
+<!-- <footer class="panel-footer" bgcolor="black" color="white">
+
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span><center>Hours:</center></span><br>
+          <center>Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed</center>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span><center>Address:</center></span><br>
+          
+          <p><center>* Delivery area within 6 miles, with minimum order of 150rupee plus 10rupee charge for all deliveries.</center></p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p><center>"The best  restaurant! once you are here , you cannot go anywhere"</center></p>
+          <p><center>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</center></p>
+        </section>
+      </div>
+      <div class="text-center"><center>&copy; Copyright Dine & Talk</center></div>
+    </div>
+
+  </footer> -->
+</center>
+</div>
+<script type="text/javascript" src="script\script.js"></script>
+</body>
+</html>
